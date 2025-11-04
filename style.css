@@ -1,0 +1,110 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5efe6;
+  
+}
+
+/* Navbar */
+.navbar {
+  background-color: #e9dac1 !important;
+  /* background-color: #b19953 !important; */
+}
+
+button{
+  border: none;
+  color: white;
+  /* padding: 20px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+/* Hero Section */
+.hero {
+  background: url('./coffee\ wallpaper.jpg') no-repeat center center/cover;
+  height: 100%;
+  color: #fff;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+ .features {
+  background-color: #fff7f0;
+} 
+
+ .feature-icon {
+  width: 70px;
+  height: 70px;
+} 
+
+hr.solid {
+  border: none;             
+  border-left: 3px solid #cbcbcb;  
+  height: 200px;            
+  width: 0;                 
+  margin: 0 auto;           
+}
+@media (max-width: 576px) {
+  hr.solid {
+    display: none;
+    
+  }
+}
+
+
+footer{
+   background-color:#6F4E37 !important;
+}
+footer .social-links img {
+  width: 30px;
+  margin: 0 5px;
+  filter: invert(1);
+  transition: transform 0.3s;
+} */
+
+ footer .social-links img:hover {
+  transform: scale(1.2);
+} 
+
+.choose-us {
+  background: url('./coffee\ ads.jpg') no-repeat center center/cover;
+  /* height: 100vh; */
+  height: 110%;
+  color: #fff;
+  padding: 100px 0;
+}
+
+
+.why-choose {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, #5c3d2e 50%, #f5e9da 50%);
+  /* background-color: #f5e9da;
+  color: #3e2723; */
+}
+
+.right-side {
+  background-color: #f5e9da;
+}
+
+.btn-light {
+  color: #5c3d2e;
+  font-weight: 600;
+}
+
+.btn-dark {
+  background-color: #5c3d2e;
+  border: none;
+}
+
+
+
+
